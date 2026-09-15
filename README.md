@@ -4,8 +4,8 @@ Aplicação web acadêmica de conscientização, apoio emocional e valorização
 
 ## Identificação
 
-- Aluno(a): **[preencha seu nome completo]**
-- Turma: **[preencha sua turma]**
+- Aluno(a): Rafael Rocha Rolim
+- Turma: 3Ano A
 - Disciplina: Desenvolvimento de Sistemas
 - Site publicado: **[cole o link do GitHub Pages após publicar]**
 
