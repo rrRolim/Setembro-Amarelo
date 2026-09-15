@@ -7,7 +7,7 @@ Aplicação web acadêmica de conscientização, apoio emocional e valorização
 - Aluno(a): Rafael Rocha Rolim
 - Turma: 3Ano A
 - Disciplina: Desenvolvimento de Sistemas
-- Site publicado: **[cole o link do GitHub Pages após publicar]**
+- Site publicado: https://rrrolim.github.io/Setembro-Amarelo/
 
 ## Ideia do projeto
 
