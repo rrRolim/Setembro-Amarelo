@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre pausas: um projeto acadêmico sobre Setembro Amarelo, com uma pausa de respiração e caminhos para buscar apoio.">
+  <meta name="theme-color" content="#234b40">
+  <title>Entre pausas | Setembro Amarelo</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23234b40'/%3E%3Cpath d='M15 12v16M25 12v16' stroke='%23edd187' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#inicio" aria-label="Entre pausas, início">
+        <span class="brand-icon" aria-hidden="true">Ⅱ</span>
+        entre pausas<span class="brand-dot" aria-hidden="true">.</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#respirar">Faça uma pausa</a>
+        <a href="#apoio">Onde buscar apoio</a>
+        <a class="nav-cvv" href="tel:+55188?oai_link_source=model_response_hotline">Ligue 188 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container" id="inicio" aria-labelledby="titulo-principal">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true">✦</span> SETEMBRO AMARELO</p>
+        <h1 id="titulo-principal">Você merece<br>escuta.<br><em>E cuidado.</em></h1>
+        <p class="intro">Nem tudo precisa ser resolvido agora. Encontre um momento de pausa e conheça caminhos para buscar apoio.</p>
+        <a class="button button-dark" href="#apoio">Encontrar apoio <span aria-hidden="true">↗</span></a>
+        <p class="hero-note">Cuidar da vida é um compromisso de todos os dias.</p>
+      </div>
+
+      <!-- O JavaScript atualiza esta atividade, sem coletar dados pessoais. -->
+      <section class="breathing-card" id="respirar" aria-labelledby="titulo-respiracao">
+        <div class="card-topline"><span>UM MOMENTO PARA VOCÊ</span><span class="duration">40 segundos</span></div>
+        <h2 id="titulo-respiracao">Vamos fazer uma pausa?</h2>
+        <p>Acompanhe o círculo, se for confortável. Inspire e expire suavemente, sem prender o ar.</p>
+        <div class="breathing-visual" aria-hidden="true">
+          <div class="breathing-ring"></div>
+          <div class="breathing-circle" id="circulo"></div>
+          <div class="breathing-label"><strong id="fase-visual">No seu ritmo</strong><span id="contagem">Inspire. Expire.</span></div>
+        </div>
+        <p id="status-respiracao" class="activity-status" role="status" aria-live="polite" aria-atomic="true">Uma pausa de 5 ciclos. Comece quando quiser.</p>
+        <div class="progress" role="progressbar" aria-label="Progresso da pausa" aria-valuemin="0" aria-valuemax="40" aria-valuenow="0"><span id="barra-progresso"></span></div>
+        <div class="activity-meta" aria-hidden="true"><span id="ciclo">5 ciclos de respiração</span><span id="tempo-restante">40 s</span></div>
+        <div class="activity-buttons">
+          <button class="button button-dark" id="botao-iniciar" type="button" disabled>Começar pausa</button>
+          <button class="button button-outline" id="botao-reiniciar" type="button" disabled>Reiniciar</button>
+        </div>
+        <p class="activity-note">Respeite seu ritmo. Interrompa se sentir desconforto.</p>
+        <noscript><p class="no-script">Ative o JavaScript para usar o exercício. Os contatos de apoio continuam disponíveis abaixo.</p></noscript>
+      </section>
+    </section>
+
+    <section class="container" aria-labelledby="titulo-cvv">
+      <div class="cvv-banner">
+        <div class="cvv-number" aria-hidden="true">188</div>
+        <div class="cvv-copy">
+          <p class="eyebrow">ALGUÉM PARA TE OUVIR</p>
+          <h2 id="titulo-cvv">Precisa conversar?</h2>
+          <p>O CVV oferece apoio emocional gratuito e sigiloso. Atendimento por telefone 24 horas, todos os dias.</p>
+        </div>
+        <div class="cvv-actions">
+          <a class="button button-yellow" href="tel:+55188?oai_link_source=model_response_hotline">Ligar para o CVV · 188 <span aria-hidden="true">↗</span></a>
+          <a class="cvv-site" href="https://www.cvv.org.br/?oai_link_source=model_response_hotline">Acessar o site do CVV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="support-section container" id="apoio" aria-labelledby="titulo-apoio">
+      <div class="section-heading">
+        <div><p class="eyebrow">VOCÊ PODE BUSCAR AJUDA</p><h2 id="titulo-apoio">Cuidado tem muitos caminhos.</h2></div>
+        <p>Conheça alguns lugares para procurar acolhimento e orientação na sua região.</p>
+      </div>
+      <div class="support-grid">
+        <article class="support-card">
+          <span class="card-number" aria-hidden="true">01</span>
+          <h3>UBS e postos de saúde</h3>
+          <p>A unidade de saúde do seu bairro pode acolher você, avaliar suas necessidades e orientar a continuidade do cuidado.</p>
+          <p class="card-tip"><strong>Primeiro passo</strong>Procure a unidade mais próxima ou consulte a Secretaria de Saúde do município.</p>
+        </article>
+        <article class="support-card">
+          <span class="card-number" aria-hidden="true">02</span>
+          <h3>CAPS</h3>
+          <p>Os Centros de Atenção Psicossocial são serviços públicos de saúde mental. Oferecem acolhimento e acompanhamento por uma equipe.</p>
+          <p class="card-tip"><strong>Primeiro passo</strong>Consulte a rede de saúde da sua cidade para localizar o CAPS de referência.</p>
+        </article>
+        <article class="support-card">
+          <span class="card-number" aria-hidden="true">03</span>
+          <h3>Clínicas-escola</h3>
+          <p>Instituições com cursos de Psicologia podem oferecer atendimento supervisionado à comunidade. As condições variam.</p>
+          <p class="card-tip"><strong>Primeiro passo</strong>Consulte o site de uma faculdade da região e confira vagas, valores e inscrição.</p>
+        </article>
+        <article class="support-card">
+          <span class="card-number" aria-hidden="true">04</span>
+          <h3>Sua instituição</h3>
+          <p>A coordenação ou a equipe de apoio ao estudante pode orientar você sobre os canais de acolhimento disponíveis.</p>
+          <p class="card-tip"><strong>Primeiro passo</strong>Converse com a coordenação e pergunte quais serviços a instituição oferece.</p>
+        </article>
+      </div>
+      <p class="urgent-note"><strong>Em uma situação de risco imediato:</strong> procure um serviço de urgência, como uma UPA ou pronto-socorro.</p>
+    </section>
+
+    <section class="about-section" aria-labelledby="titulo-campanha">
+      <div class="container about-content">
+        <div><p class="eyebrow">CONSCIENTIZAR É CUIDAR</p><h2 id="titulo-campanha">A conversa continua<br>depois de setembro.</h2></div>
+        <div class="about-copy">
+          <p>O Setembro Amarelo convida à conscientização sobre a prevenção do suicídio e a valorização da vida. Ouvir sem julgamento e incentivar a busca por cuidado são formas de apoiar.</p>
+          <p>Você não precisa ter todas as respostas para estar presente. Acolher também é ajudar alguém a encontrar atendimento profissional.</p>
+          <a class="text-link" href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/suicidio-prevencao">Saiba mais no Ministério da Saúde <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <div class="footer-heading"><span class="footer-brand">entre pausas.</span><span>Projeto acadêmico · Desenvolvimento de Sistemas</span></div>
+    <p><strong>Aviso importante:</strong> esta aplicação é um projeto acadêmico de conscientização e não substitui atendimento psicológico, psiquiátrico ou de outro profissional de saúde mental. A atividade de respiração é opcional e não constitui tratamento.</p>
+    <p class="sources">Fontes: <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/suicidio-prevencao">Ministério da Saúde</a>, <a href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps">Rede de Atenção Psicossocial</a> e <a href="https://www.cvv.org.br/?oai_link_source=model_response_hotline">CVV</a>. Nenhum dado pessoal é solicitado ou armazenado por esta página.</p>
+  </footer>
+</body>
+</html>
