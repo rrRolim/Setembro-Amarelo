@@ -9,6 +9,10 @@ Aplicação web acadêmica de conscientização, apoio emocional e valorização
 - Disciplina: Desenvolvimento de Sistemas
 - Site publicado: https://rrrolim.github.io/Setembro-Amarelo/
 
+  ## Prévia do site
+
+![Prévia do site Entre pausas](previa-desktop.png)
+
 ## Ideia do projeto
 
 O nome “Entre pausas” representa um espaço para interromper a correria, encontrar uma escuta e conhecer caminhos de cuidado. A identidade usa verde suave e amarelo discreto, com letras legíveis e contraste entre texto e fundo.
